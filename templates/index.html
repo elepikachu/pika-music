@@ -15,8 +15,25 @@
    <head>
     <meta charset="utf-8"/>
     <title>Pika music player</title>
+       <style>
+           .top {
+               padding: 20px;
+               text-align: center;
+               background-color: lightyellow;
+           }
+           .footer {
+               padding: 20px;
+               text-align: center;
+               background: #ddd;
+           }
+       </style>
    </head>
    <body>
+   <div class="top">
+      Pika Music Player &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/admin">UPLOAD/UPDATE</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/">MAIN PAGE</a><br />
+   </div>
     <div class="contain">
      <div class="container">
       <div class="music-player">
@@ -51,6 +68,9 @@
   </script>
   <script src="{% static 'js/script.js' %}">
   </script>
+ <div class="footer">
+      powered by elepikachu
+</div>
  </body>
 </html>
 
